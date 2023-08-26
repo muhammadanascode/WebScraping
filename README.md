@@ -6,15 +6,15 @@ This repository contains a Python script that uses Selenium to scrape the follow
 Prerequisites:
 - Python 3.x
 - Required packages: selenium
-- Chrome WebDriver
 
 How to Use:
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Open `main.py` and replace `'username'` with the target Instagram username.
 4. Set the correct `driver_path` for the Chrome WebDriver.
-5. Run the script: `python main.py`.
-6. Script automates fetching followers and writing data to `data.txt` in the `data` directory.
+5. Create data folder and create data.txt file in it.
+6. Run the script: `python main.py`.
+7. Script automates fetching followers and writing data to `data.txt` in the `data` directory.
 
 Important Notes:
 - Respect Terms of Use.
