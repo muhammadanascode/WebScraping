@@ -9,7 +9,7 @@ chrome_options.add_argument("--headless")  # Run Chrome in headless mode
 chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
 
 # url of user
-url = "https://www.instagram.com/zafar_akberhff/"
+url = "https://www.instagram.com/username/"
 
 # Initialize the Chrome WebDriver
 driver = webdriver.Chrome(options=chrome_options)
