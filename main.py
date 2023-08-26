@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-# Pyhton program to find user's instagram followers
+# Python program to find user's instagram followers
 
 # Set up the Chrome options
 chrome_options = Options()
