@@ -3,11 +3,20 @@ from selenium.webdriver.chrome.options import Options
 
 # Python program to find user's instagram followers
 
+# Set up the Chrome options
+path  = 'd:\ChromeDriver\chromedriver.exe'
+
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode
+chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
+chrome_options.add_extension(path)
+
 # url of user
-url = "https://www.instagram.com/zafar_akber/"
+url = "https://www.instagram.com/anassohail12/"
+
 
 # Initialize the Chrome WebDriver
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options=chrome_options)
 driver.get(url)
 
 # Wait for the dynamic content to load
